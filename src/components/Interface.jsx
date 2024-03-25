@@ -47,13 +47,15 @@ const AboutSection = (props) => {
   const { setSection } = props;
   return (
     <Section mobileTop>
-      <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
+      <h1 className='text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0'>
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className='bg-green-600 px-1 text-[45px] italic'>
+          Mohammed Kofil
+        </span>
       </h1>
       <motion.p
-        className="text-lg text-gray-600 mt-4"
+        className='text-lg text-gray-600 mt-4'
         initial={{
           opacity: 0,
           y: 25,
@@ -67,9 +69,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        Experienced Backend Engineer....
         <br />
-        learn how to build 3D apps
+        specializing in Node.js, Django, Asp.Net, Ruby on Rails.
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -96,29 +98,37 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: "Threejs / React Three Fiber",
-    level: 80,
+    title: 'Javascript',
+    level: 96.5,
   },
   {
-    title: "React / React Native",
+    title: 'Nodejs',
     level: 90,
   },
   {
-    title: "Nodejs",
-    level: 90,
+    title: 'Reactjs',
+    level: 50,
   },
   {
-    title: "Typescript",
+    title: 'Typescript',
     level: 60,
   },
   {
-    title: "3D Modeling",
+    title: 'Asp.Net Core',
     level: 40,
+  },
+  {
+    title: 'Django',
+    level: 60,
+  },
+  {
+    title: 'Ruby on Rails',
+    level: 70,
   },
 ];
 const languages = [
   {
-    title: "🇫🇷 French",
+    title: "🇧🇩 Bengali",
     level: 100,
   },
   {
@@ -126,8 +136,8 @@ const languages = [
     level: 80,
   },
   {
-    title: "🇯🇵 Japanese",
-    level: 20,
+    title: "🇮🇳 Hindi",
+    level: 50,
   },
 ];
 
