@@ -55,7 +55,7 @@ const AboutSection = (props) => {
         </span>
       </h1>
       <motion.p
-        className='text-lg text-gray-600 mt-4'
+        className='text-lg text-red-600 mt-4 italic text-justify md:text-left p-4 rounded-md '
         initial={{
           opacity: 0,
           y: 25,
@@ -69,14 +69,12 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        Experienced Backend Engineer....
-        <br />
-        specializing in Node.js, Django, Asp.Net, Ruby on Rails.
+        Experienced backend developer skilled in <br/> creating scalable web applications and RESTful APIs <br/> using Node.js, Python, and C#. Proficient with AWS and <br/> Azure cloud services and databases like NoSQL and SQL..
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
         className={`bg-indigo-600 text-white py-4 px-8 
-      rounded-lg font-bold text-lg mt-4 md:mt-16`}
+      rounded-lg font-bold text-lg mt-4 md:mt-6 hover:bg-indigo-700 transition-colors`}
         initial={{
           opacity: 0,
           y: 25,
@@ -98,54 +96,58 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: 'Javascript',
+    title: 'Nodejs',
     level: 96.5,
   },
   {
-    title: 'Nodejs',
-    level: 90,
+    title: 'Expressjs',
+    level: 95,
   },
   {
-    title: 'Reactjs',
-    level: 50,
-  },
-  {
-    title: 'Typescript',
-    level: 60,
-  },
-  {
-    title: 'Asp.Net Core',
-    level: 40,
+    title: 'Nestjs',
+    level: 80,
   },
   {
     title: 'Django',
+    level: 70,
+  },
+  {
+    title: 'Asp.Net Core',
     level: 60,
   },
   {
-    title: 'Ruby on Rails',
+    title: 'Nextjs',
+    level: 60,
+  },
+  {
+    title: 'Reactjs',
     level: 70,
   },
 ];
 const languages = [
   {
-    title: "🇧🇩 Bengali",
-    level: 100,
+    title: "JavaScript",
+    level: 99.5,
   },
   {
-    title: "🇺🇸 English",
-    level: 80,
+    title: "TypeScript",
+    level: 90,
   },
   {
-    title: "🇮🇳 Hindi",
+    title: "Python",
     level: 50,
+  },
+    {
+    title: "C#",
+    level: 70,
   },
 ];
 
 const SkillsSection = () => {
   return (
     <Section>
-      <motion.div className="w-full" whileInView={"visible"}>
-        <h2 className="text-3xl md:text-5xl font-bold text-white">Skills</h2>
+      <motion.div className="w-full md:w-1/2 mt-12" whileInView={"visible"}>
+        <h2 className="text-3xl md:text-5xl font-bold text-white mt-12">Skills</h2>
         <div className="mt-8 space-y-4">
           {skills.map((skill, index) => (
             <div className="w-full md:w-64" key={index}>
@@ -252,7 +254,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <Section>
+    <Section className="flex flex-col items-center justify-center">
       <div className="flex w-full h-full gap-8 items-center justify-center">
         <button
           className="hover:text-indigo-600 transition-colors"
