@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Node Chat App",
     url: "https://github.com/kofil8/Node_Chat_Application.git",
-    image: "projects/kanagame.jpg",
+    image: "projects/avatar.jpg",
     description: "Use React Three Fiber to create a 3D game",
   },
   {
