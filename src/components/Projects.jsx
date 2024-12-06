@@ -8,32 +8,32 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
+    title: "The Real Feedback",
+    url: "https://github.com/kofil8/Node_Chat_Application.git",
     image: "projects/wawatmos.jpg",
     description: "Recreating the Atmos Awwwards website with React Three Fiber",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
+    title: "Zoom",
+    url: "https://github.com/kofil8/Zoom.git",
     image: "projects/baking.jpg",
     description: "Learn how to bake a 3D model with Blender and use it in r3f",
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
+    title: "BangTube",
+    url: "https://github.com/kofil8/BangTube.git",
     image: "projects/avatar.jpg",
     description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
   },
   {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+    title: "Node Chat App",
+    url: "https://github.com/kofil8/Node_Chat_Application.git",
     image: "projects/kanagame.jpg",
     description: "Use React Three Fiber to create a 3D game",
   },
   {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+    title: "Animal Kingdom",
+    url: "https://github.com/kofil8/Animal_Kingdom.git",
     image: "projects/loader.jpg",
     description: "Create a loading screen for your r3f projects",
   },
